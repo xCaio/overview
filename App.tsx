@@ -32,7 +32,7 @@ export default function App() {
           height={200}
         />
         <Text>Aplicando imagem interna</Text>
-        <Image source={Hotwheels} width={5} height={5} />
+        <Image source={Hotwheels} width={5} height={5} style={{display: isActive? "flex" : "none"}}/>
         <StatusBar style="auto" />
         <Button
           title="Botao"
